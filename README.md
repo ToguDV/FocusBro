@@ -7,15 +7,14 @@
 - 🚫 Blocks access to distracting websites (like Facebook, Twitter, YouTube, etc.)
 - 🕒 Active only during defined hours (e.g. 9 AM to 10 PM)
 - ⚡ Fast & lightweight
+- 🎯 Block specific paths or subdomains (e.g. block `youtube.com` but allow `music.youtube.com`)
 
 ## ✨ Coming soon
 
-- 🔒 Overlays the site instead of redirecting (so you don’t lose your place)
-- 🔄 Automatically removes the block after hours
+- 🔒 Overlays the site instead of redirecting (so you don’t lose your site)
 - 📆 Custom schedules per day (e.g. different times for weekends)
 - 🧠 Motivational quotes or reminders when a site is blocked
 - 📊 Usage stats (how many sites you avoided today)
-- 🎯 Block specific paths or subdomains (e.g. block `youtube.com` but allow `music.youtube.com`)
 - ☁️ Cloud sync for settings across devices
 
 ## 📦 Installation
@@ -29,17 +28,4 @@
 
 ## ⚙️ Configuration
 
-Edit the `background.js` file to change:
-
-- Blocked sites (in the `blockedUrls` array)
-- Active time range (`startHour` and `endHour`)
-
-```js
-const blockedUrls = [
-  "facebook.com",
-  "twitter.com",
-  "youtube.com"
-];
-
-const startHour = 9;  // Start blocking at 9 AM
-const endHour = 22;   // Stop blocking at 10 PM
+To edit the settings, just click on the extension icon to open the settings menu

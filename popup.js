@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const blockedUrls = [document.getElementById("blockedUrls"), "blockedUrls"];
   const startHour = [document.getElementById("startHour"), "startHour"];
+  const endHour = [document.getElementById("endHour"), "endHour"];
   const saveBtn = document.getElementById("save");
 
-  const elements = [blockedUrls, startHour];
+  const elements = [blockedUrls, startHour, endHour];
 
   // Load elements
   elements.forEach(([element, key]) => {
